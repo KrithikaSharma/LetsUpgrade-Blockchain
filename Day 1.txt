@@ -1,0 +1,31 @@
+Question 1: What is your understanding of BlockChain?
+Ans: Blockchain is a new technology which uses Distributed DataBase and Cryptography which stores the data in the form of blocks having multiple copies of each block.
+Each block secures the data using SHA-256(Secure Hash Alogorithm).
+Each block consists of previous key+Data which generates a new key and this key is the previous key for the next block.
+this process continues for 'n' number of blocks.
+
+Question 2:What is the core problem Blockchain trying to solve?
+Ans: Blockchain tries to solve the Data loss problem by having multiple copies of the Data.
+It also prevents the data from getting updated and deleted.
+
+Question 3:What are the few features which Blockchain will give you?
+Ans: Blockchain features are:
+	1. Verifiable: Wheteher the data has been changed or not can be verifiable as it uses previous key in the data to generate a new key. 
+	   If there is change in data it can be notified as there will be change in the key. All keys will be compared, thus the block which consists of different key is found and verified.
+	2. Unchangeable: The data cannot be changed as their are multiple copies of the data, if any intruder tries to change the data it can be notified using the key generated using SHA-256.
+	3. Tamper-proof:If block data gets changed it hash function or key aslo gets changed and its preceeding block also gets changed resulting in the change of final block key, as the changed key does not match with other copies key the tamper in the data gets notified and hence providing the  tamper-proof.
+	4. Immutable: Data is Immutable as we can acces the data from multiple 'n' number of copies. Even if one block of data gets deleted we can access it from other, and if other gets deleted, we can access it from annother one....
+
+
+Question 4: What all things a Block contain?
+Ans: Block contains:
+		1.Block number: Used to denote the block.
+		2.Data: Content of the block, transactions.
+		3.Previous key: Generated using SHA-256.
+		4.Mining key
+
+
+Question 5: How is the verifiability of Blockchain has been attained?
+Ans:Wheteher the data has been changed or not can be verifiable as it uses previous key in the data to generate a new key. 
+	   If there is change in data it can be notified as there will be change in the key. All keys will be compared, thus the block which consists of different key is found and verified.
+
